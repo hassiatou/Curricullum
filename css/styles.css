@@ -1,0 +1,302 @@
+/*
+A custom Bootstrap 3.1 template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+html,body {
+	height:100%;
+    background:center no-repeat fixed url('../img/code-space.jpg');
+    background-size: cover;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+.navbar-trans {
+	background-color:#279ddd;
+    color:#fff;
+}
+
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+	background-color:#38afef;
+}
+
+.navbar-trans a{
+    color:#fefefe;
+}
+
+.navbar-trans .form-control:focus {
+	border-color: #eee;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+}
+
+section {
+	padding-top:70px;  
+    padding-bottom:50px; 
+    min-height:calc(100% - 1px);
+}
+
+.v-center {
+    padding-top:10%;
+    font-size:70px;
+}
+  
+.well {
+	border-color:transparent;
+}
+
+a.list-group-item.active,[class*='-info'] {
+	background-color: #168ccc;
+    color:#fff;
+}
+  
+#section1 {
+	background-color: rgba(22,140,204,0.9);;
+    color:#FFFFFF;
+}
+  
+#section2 {
+    padding-top: 20px;
+	background-color: #FFF;
+    color:#000000;
+}
+  
+#section3 {
+    padding-top: 20px;
+	background-color: #168ccc;
+    color:#FFF;
+}
+
+#section4 {
+    padding-top: 20px;
+	background-color: #FFF;
+    color:#444;
+}
+
+#section5 {
+    padding-top: 20px;
+  background-color: #168ccc;
+    color:#FFF;
+}
+
+#section6 {
+    padding-top: 20px;
+  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+    color:#FFF;
+}
+
+.portfolio > a {
+  margin-bottom: 50px;
+ color: #F2992E;
+ text-decoration: none;
+ }
+.portfolio > a:visited {
+ color: #F2992E;
+ text-decoration: none;
+ }
+.portfolio > a:active {
+ color: #F2992E;
+ text-decoration: none;
+}
+.portfolio > a:hover {
+ color: #FF00A5;
+ text-decoration: none;
+}
+.portfolio > center > a > img{
+  margin-top: 20px;
+}
+
+.partner > h4 {
+  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+}
+
+.partner > a {
+  margin-bottom: 50px;
+ color: #F2992E;
+ text-decoration: none;
+ }
+.partner > a:visited {
+ color: #F2992E;
+ text-decoration: none;
+ }
+.partner > a:active {
+ color: #F2992E;
+ text-decoration: none;
+}
+.partner > a:hover {
+ color: #FF00A5;
+ text-decoration: none;
+}
+.partner > center > a > img{
+  margin-top: 20px;
+}
+
+footer {
+    color:#FFF;
+    min-height:100px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+footer .nav>li>a {
+    padding:3px;
+    color:#ccc;
+}
+
+footer .nav>li>a:hover {
+    background-color:transparent;
+	color:#fff;
+}
+
+.image {
+    height: 200px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #186E9D;
+}
+
+.poste {
+    text-align: left;
+}
+
+.poste > a {
+ color: #F2992E;
+ text-decoration: none;
+ }
+.poste > a:visited {
+ color: #F2992E;
+ text-decoration: none;
+ }
+.poste > a:active {
+ color: #F2992E;
+ text-decoration: none;
+}
+.poste > a:hover {
+ color: #FF00A5;
+ text-decoration: none;
+}
+
+.date {
+    float: right;    
+}
+
+.simplon > img {
+    width: 200px;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.wrapper{
+    background-attachment: scroll;
+    width: 325px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+  display: inline-block;
+  position: relative;
+  color: #bdbdbd;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.47em;
+  line-height: 2em;
+  background-color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
+  -webkit-transition:background-color 250ms ease 0s;
+  transition:background-color 250ms ease 0s;
+}
+
+.zocial-facebook{margin-left: -8px}
+
+.icon.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.youtube:hover{background-color: #a32929;}
+.flickr:hover{background-color: #c257ad;}
+.codewar:hover{background-color: #D8676F;}
+
+#social > a {
+ text-decoration: none;
+ }
+#social > a:visited {
+ text-decoration: none;
+ }
+#social > a:active {
+ text-decoration: none;
+}
+#social > a:hover {
+ text-decoration: none;
+}
+
+.icon:hover{
+  color: #fff;
+  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
+}
+
+.icon:active{
+  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
+  top: 3px;
+}
+
+.scrollToTop{
+    width:100px; 
+    height:100px; 
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom:5px;
+    right:5px;
+    display:none;
+    background: url('../img/arrow7.png') no-repeat 20px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
+.button_pdf {
+    margin-top: 20px;
+}
+
+.copyright {
+  color:#A0A0A0;
+  margin-top: 30px;
+}
+
+.translator {
+  padding-top: 12px;
+}
+
+#img-portfolio {
+    min-height: 214px;
+}
